@@ -10,7 +10,7 @@ Chat Application - Nodejs, socket.io, Angular, MongoDB
   node app.js
 
   Sign up @ http://localhost:5000/user/signup
-  @http://localhost:5000/user/login
-  running project:
+  Login @http://localhost:5000/user/login
+  
 
 ```
