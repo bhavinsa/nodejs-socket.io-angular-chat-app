@@ -41,7 +41,7 @@ app.use(
 //session setup
 const sessionInit = session({
   name: "userCookie",
-  secret: "9743-980-270-india",
+  secret: "ASDFREWQ",
   resave: true,
   httpOnly: true,
   saveUninitialized: true,

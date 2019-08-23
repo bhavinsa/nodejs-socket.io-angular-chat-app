@@ -1,4 +1,5 @@
 $(function() {
+  var loginPage = "http://localhost:5000/user/login";
   var socket = io("/chat");
 
   var username = $("#user").val();
@@ -16,7 +17,9 @@ $(function() {
     socket.on("broadcast", function(data) {
       if (data.username == username) {
         // Logout user
+        // alert("This user going to logout.");
         console.log("Logout User here");
+        // window.location.href = loginPage;
       }
     });
   }); //end of connect event.
